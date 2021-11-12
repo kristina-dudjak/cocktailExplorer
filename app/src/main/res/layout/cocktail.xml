@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_bottom">
+
+    <ImageView
+        android:id="@+id/img_cocktail"
+        android:layout_width="@dimen/image_scale"
+        android:layout_height="@dimen/image_scale"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="@string/cocktail" />
+
+    <TextView
+        android:id="@+id/tv_cocktailName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/remove_favourite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_baseline_remove_24"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/remove"/>
+
+</LinearLayout>

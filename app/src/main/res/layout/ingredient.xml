@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_bottom"
+    android:paddingBottom="@dimen/padding_bottom_bg">
+
+    <TextView
+        android:id="@+id/tv_ingredient"
+        android:layout_width="@dimen/zero"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/remove_ingredient"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_baseline_remove_24"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/remove"/>
+
+</LinearLayout>

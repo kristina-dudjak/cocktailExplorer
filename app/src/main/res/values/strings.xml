@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cocktail Explorer</string>
+
+    <string name="edit_text">Search a cocktail:</string>
+    <string name="button_text">Go</string>
+    <string name="cocktail">Cocktail: </string>
+    <string name="category">Category: </string>
+    <string name="glass">Glass: </string>
+    <string name="instructions">Instructions: </string>
+    <string name="remove">remove</string>
+    <string name="back">back</string>
+    <string name="heart">heart</string>
+    <string name="cart">cart</string>
+    <string name="toast_added_favourite">Added to favourites</string>
+    <string name="toast_add_to_shopping">Added to shopping list</string>
+</resources>
