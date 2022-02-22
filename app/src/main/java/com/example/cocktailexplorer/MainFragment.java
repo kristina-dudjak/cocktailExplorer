@@ -48,6 +48,4 @@ public class MainFragment extends Fragment {
     public void setIngredient(String ingredient){
         screenSlidePagerAdapter.setIngredient(ingredient);
         }
-
-
 }

@@ -1,22 +1,18 @@
 package com.example.cocktailexplorer;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,14 +59,14 @@ public class CocktailsFragment extends Fragment {
         apiCall = NetworkUtils.getApiInterface().searchCocktails(query);
         apiCall.enqueue(new Callback<CocktailData>() {
             @Override
-            public void onResponse(Call<CocktailData> call, Response<CocktailData> response) {
+            public void onResponse(@NonNull Call<CocktailData> call, @NonNull Response<CocktailData> response) {
                 if (response.isSuccessful() && response.body() != null) {
                     showCocktails(response.body().cocktails != null ? response.body().cocktails : new ArrayList<>());
                 }
             }
 
             @Override
-            public void onFailure(Call<CocktailData> call, Throwable t) {
+            public void onFailure(@NonNull Call<CocktailData> call, @NonNull Throwable t) {
                 Toast.makeText(CocktailsFragment.this.getContext(), "Error", Toast.LENGTH_SHORT).show();
                 t.printStackTrace();
             }

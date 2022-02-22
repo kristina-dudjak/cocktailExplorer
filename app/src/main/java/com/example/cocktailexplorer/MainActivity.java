@@ -1,22 +1,8 @@
 package com.example.cocktailexplorer;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-import androidx.viewpager.widget.ViewPager;
-
-import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.FrameLayout;
-
-import com.google.android.material.tabs.TabLayout;
-
-import java.util.List;
-
 public class MainActivity extends AppCompatActivity {
 
     private MainFragment mainFragment;

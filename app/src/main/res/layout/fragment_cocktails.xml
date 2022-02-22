@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context=".CocktailsFragment">
+    tools:context=".CocktailsFragment"
+    android:id="@+id/frag_cocktails">
 
     <EditText
         android:id="@+id/edText"
@@ -25,6 +26,6 @@
         android:id="@+id/recycler_cocktails"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/edText"/>
+        android:layout_below="@id/edText" />
 
 </RelativeLayout>
