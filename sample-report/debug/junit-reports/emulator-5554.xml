@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.cocktailexplorer.test" tests="6" failures="0" errors="0" skipped="0" time="0.067" timestamp="2022-02-21T18:40:46" hostname="localhost">
+  <properties />
+  <testcase name="findExactCocktail" classname="com.example.cocktailexplorer.CocktailsFragmentTest" time="5.225" />
+  <testcase name="matchesCocktailName" classname="com.example.cocktailexplorer.CocktailsFragmentTest" time="5.231" />
+  <testcase name="removeFromFavourites" classname="com.example.cocktailexplorer.FavouritesFragmentTest" time="8.324" />
+  <testcase name="addToFavourites" classname="com.example.cocktailexplorer.FavouritesFragmentTest" time="7.392" />
+  <testcase name="removeFromShoppingList" classname="com.example.cocktailexplorer.ShoppingFragmentTest" time="9.199" />
+  <testcase name="addToShoppingList" classname="com.example.cocktailexplorer.ShoppingFragmentTest" time="8.007" />
+</testsuite>
