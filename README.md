@@ -1,5 +1,5 @@
 # cocktailExplorer
-Cocktails app which uses TheCocktailDB API to display cocktails which you can add to favourites and add their ingredients to a shopping cart.
+Cocktails app is an Android application written in Java. It uses TheCocktailDB API to display cocktails which you can add to favourites and add their ingredients to a shopping cart.
 
 ## Testing the app
 
